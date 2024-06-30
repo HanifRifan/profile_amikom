@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/png" href="images/logo_tittle.png">
+    <title>Universitas Amikom Yogyakarta</title>
+</head>
+<body>
+    <header>
+        <img src="./images/logo-putih.png" width="170px" height="60px">
+        <ul class="nav">
+            <li><a href="index.html" id="home-link"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="visi-misi.html" id="visi-misi-link">Visi Misi</a></li>
+            <li><a href="fakultas.html" id="fakultas-link">Fakultas</a></li>
+            <li><a href="pmb.html" id="pmb-link">PMB</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>    
+    <div class="banner">
+        <div class="content welcome active">
+            <h4>
+                <span>Selamat Datang di<br>Amikom Creative Economy Park</span>
+            </h4>
+            <p>
+                Universitas Amikom Yogyakarta mempunyai peranan yang besar dalam dunia pendidikan sebagai pusat pengembangan ekonomi kreatif untuk meningkatkan daya saing bangsa, telah membuktikan mampu mengatasi berbagai kesulitan dan hambatan dalam pengelolaannya. Amikom Creative Economy Park (ACEP) yang telah bekerjasama dennen perusahaan di Silicon Valley dan Hollywood menjadika peluang baru bagi mahasiswa untuk melakukan internship dan bagi alumni untuk bekerja di Silicon Valley dan Hollywood.
+            </p>
+        </div>
+        <div class="content rank-amikom">
+            <h4>
+                <span>UNIVERSITAS AMIKOM PERINGKAT 21 DUNIA</span>
+            </h4>
+            <p>
+                Universitas Amikom Yogyakarta kembali mendapat penghargaan dunia dari World’s Universities with Real Impact (WURI). Menurut pengumuman resmi WURI 2022, Universitas Amikom Yogyakarta meraih posisi 21 dunia dalam daftar Top 50 Industrial Application. Ranking ini Naik 9 Tingkat, dari tahun sebelumnya.
+            </p>
+            <div class="button">
+                <a href=""><i class="fa-solid fa-circle-info"></i> Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="content pmb">
+            <h4>
+                <span>PMB UNIVERSITAS AMIKOM YOGYAKARTA</span>
+            </h4>
+            <p>
+                Universitas Amikom Yogyakarta kembali mendapat penghargaan dunia dari World’s Universities with Real Impact (WURI). Menurut pengumuman resmi WURI 2022, Universitas Amikom Yogyakarta meraih posisi 21 dunia dalam daftar Top 50 Industrial Application. Ranking ini Naik 9 Tingkat, dari tahun sebelumnya.
+            </p>
+            <div class="button">
+                <a href=""><i class="fa-solid fa-graduation-cap"></i></i> PMB</a>
+            </div>
+        </div>
+        <div class="content top1">
+            <h4>
+                <span>TOP 1 WURI 2024: Leadership</span>
+            </h4>
+            <p>
+                Amikom Yogyakarta meraih peringkat pertama dalam kategori Leadership dalam The World University Rankings for Innovation 2024. Prestasi ini didorong oleh inovasi yang beragam dan kepemimpinan visioner universitas. WURI menyoroti beberapa aspek penilaian seperti visi kepemimpinan yang jelas, strategi yang terdefinisi dengan baik, dorongan untuk pemikiran kreatif, pengambilan risiko yang diperhitungkan, alokasi sumber daya yang tepat, dan penciptaan entitas baru untuk inovasi.
+            </p>
+            <div class="button">
+                <a href=""><i class="fa-solid fa-circle-info"></i> Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="content film">
+            <h4>
+                <span>Universitas Terbaik di Indonesia Bidang Film Animasi</span>
+            </h4>
+            <p>
+                Film animasi The Battle of Surabaya yang disutradarai oleh Aryanto Yuniawan dan diproduksi oleh Hery Soelistio. Cerita film bergenre action dengan tokoh utama anak laki-laki yang pemberani bernama “Musa”. Film animasi sejarah The Battle of Surabaya ini ditulis oleh M.Suyanto dan Aryanto Yuniawan. M.Suyanto merupakan rektor dari Universitas Amikom Yogyakarta Perguruan Tinggi Swasta Terbaik di Jogja.
+            </p>
+            <div class="button">
+                <a href="#" onclick="toggleVideo()"><i class="fa-solid fa-circle-play"></i> Watch Trailer</a>
+            </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item" onclick="changeDesc('welcome')">
+                    <img src="./images/welcome.jpg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeDesc('rank-amikom')">
+                    <img src="./images/rank-amikom.jpeg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeDesc('pmb')">
+                    <img src="./images/pmb.jpeg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeDesc('top1')">
+                    <img src="./images/top1.gif" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeDesc('film')">
+                    <img src="./images/film.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <button class="cssbuttons-io-button beasiswa" onclick="document.getElementById('program').scrollIntoView({ behavior: 'smooth' });">
+            SELENGKAPNYA
+            <div class="icon">
+              <svg
+            height="24"
+            width="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M12 16.172l-5.364-5.364 1.414-1.414L11 13.586V4h2v9.586l3.95-3.95 1.414 1.414z"
+              fill="currentColor"
+            ></path>
+          </svg>
+            </div>
+          </button>
+          
+    </div>
+    <div class="trailer">
+        <video src="assets/trailer.mp4" controls="true" autoplay="true"></video>
+        <img class="close" src="images/close.png" alt="" onclick="toggleVideo()">
+    </div>
+    <div class="program-value" id="program" style="height: 100vh;padding: 0;overflow-y: hidden;">
+        <div class="program-header">
+            <div class="title">Program Terbaik Kami</div>
+        </div>
+        <div class="programs">
+            <div class="program-cards">
+                <div class="program-card" style="background-image: linear-gradient(to right bottom, #ab7df9, #a773f1, #a46ceb, #a164e6, #9e5de0, #9b55da);">
+                    <div class="program">
+                        <h3>Registrasi Mudah</h3>
+                        <p>Daftar di AMIKOM Bisa dari Mana Saja</p>
+                        <a href="https://pmb.amikom.ac.id/id/page/registrasi" class="learn-more" target="_blank">Alur Registrasi <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                    <div class="program">
+                        <h3>Biaya Terjangkau</h3>
+                        <p>Kuliah di AMIKOM Tidak Mahal</p>
+                        <a href="https://pmb.amikom.ac.id/id/page/biaya-kuliah" class="learn-more" target="_blank">Info Biaya <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                    <div class="program">
+                        <h3>Pendaftaran Online</h3>
+                        <p>Sudah Siap Daftar Kuliah di AMIKOM?</p>
+                        <a href="pmb.html" class="learn-more" target="_blank">Info PMB <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                    <div class="program">
+                        <h3>Kuliah Gratis</h3>
+                        <p>Beasiswa hingga kuliah gratis 100%</p>
+                        <a href="https://home.amikom.ac.id/beasiswa/" class="learn-more" target="_blank">Info Beasiswa <i class="fa-solid fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="value">
+            <div class="value-img">
+                <img src="./images/mahasiswa.png" style="transform: translateY(-140px);" alt="mahasiswa">
+            </div>
+            <div class="value-section">
+                <div class="value-title">Fasilitas Kampus</div>
+                <div class="value-description">Universitas Amikom memiliki 4 fasilitas utama yang membantu kreativitas dan produktivitas mahasiswa.</div>
+                <div class="value-cards">
+                    <div class="value-card">
+                        <i class="fa-solid fa-users-rectangle"></i>
+                        <h4>Cinema</h4>
+                        <p>Ruang pertemuan dan seminar yang didesain mewah dan megah layaknya bioskop</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <h4>Inkubator Teknologi</h4>
+                        <p>Fasilitas inkubator teknologi yang digunakan untuk mengembangkan dan menginkubasi inovasi produk teknologi mahasiswa</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-book-open"></i>
+                        <h4>Resource Centre</h4>
+                        <p>Universitas Amikom memiliki perpustakaan dengan konsep perpustakaan ddengan konsep yang memiliki fasilitas dan buku lengkap</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fa-solid fa-computer"></i>
+                        <h4>Laboratorium</h4>
+                        <p>Universitas Amikom memliki berbagai laboratorium seperti Lab. Komputer, Lab. Multimedia, Lab. Praktikum, Lab. Jaringan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <div class="banner-footer-container">
+            <div class="banner-footer">
+                <p>"I'm not stop when i'm tired, i'm stop when i'm done"</p>
+                <p>-- David Goggins</p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-logo">
+                <img src="images/logo-ungu.png" alt="Virat Kohli Foundation" width="120px">
+                <div class="sci" style="margin: 4px;">
+                    <button class="Btn" onclick='window.open("https://www.instagram.com/amikomjogja/", "_blank")'>
+                        <span class="svgContainer">
+                            <svg class="instagram-logo"
+                            fill="#000" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 551.034 551.034"
+                                height="1.7em">
+                                <path class="logo" fill="#fff" id="XMLID_17_" d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"/>
+                            
+                                <path id="XMLID_81_" fill="#fff" d="M275.517,133C196.933,133,133,196.933,133,275.516 s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6 c-48.095,0-87.083-38.988-87.083-87.083s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083 C362.6,323.611,323.611,362.6,275.517,362.6z"/>
+                            
+                                <circle id="XMLID_83_" fill="#fff" cx="418.306" cy="134.072" r="34.149"/>
+                            </svg>
+                        </span>
+                        <span class="BG ig"></span>
+                    </button>
+                    <button class="Btn" onclick='window.open("https://youtube.com/@amikomjogjavideo?si=qj4GzMJAMzMl5-Z9", "_blank")'>
+                        <span class="svgContainer">
+                          <svg
+                            viewBox="0 0 576 512"
+                            fill="white"
+                            height="1.6em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="BG yt"></span>
+                    </button>
+                    <button class="Btn" onclick='window.open("https://x.com/AmikomJogja", "_blank")'>
+                        <span class="svgContainer">
+                          <svg
+                            viewBox="0 0 512 512"
+                            height="1.7em"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="svgIcon"
+                            fill="white"
+                          >
+                            <path
+                              d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                            ></path>
+                          </svg>
+                        </span>
+                        <span class="BG x"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content1">
+                    <div class="footer-links">
+                        <a href="https://daak.amikom.ac.id/">Akademik</a>
+                        <a href="https://kemahasiswaan.amikom.ac.id/">Kemahasiswaan</a>
+                        <a href="https://lppm.amikom.ac.id/">LPMM</a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="https://keuangan.amikom.ac.id/">Keuangan</a>
+                        <a href="https://io.amikom.ac.id/">International</a>
+                        <a href="https://ic.amikom.ac.id/">Innovation Center</a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="https://auth.amikom.ac.id/karyawan">Dosen</a>
+                        <a href="https://elearning.amikom.ac.id/">E-Learning</a>
+                        <a href="https://waskita.amikom.ac.id/">E-Learning Waskita</a>
+                    </div>
+                </div>
+                <div class="footer-content2">
+                    <div class="footer-contact">
+                        <p>Telp: (0274) 884201 – 207</p>
+                        <p>Fax: (0274) 884208</p>
+                        <p>Email: Yayasan@amikom.ac.id</p>
+                        <p>Email: amikom@amikom.ac.id</p>
+                    </div>
+                    <div class="footer-contact">
+                        <p>Jl. Padjajaran, Ring Road Utara, Kel. Condongcatur, Kec. Depok, Kab. Sleman, Prop. Daerah Istimewa Yogyakarta 55283</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2001 - 2024 UNIVERSITAS AMIKOM YOGYAKARTA. All Right Reserved.</p>
+            </div>
+        </footer>  
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+          $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html>
