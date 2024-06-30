@@ -88,8 +88,6 @@ header {
     align-items: center;
     padding: 20px 100px;
     z-index: 10;
-    background: #6a47dc1e;
-    backdrop-filter: blur(10px);
 }
 
 .nav {
@@ -198,7 +196,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 60px 0;
-    background-image: url("../assets/background.gif");
+    background-image: url("../images/background2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
