@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box-area {
+  width: 900px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.right-box {
+  padding: 40px 30px;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.header-text h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+.left-box {
+  background: linear-gradient(145deg, #6b47dc, #3b2392);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.enlarged-image {
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.enlarged-image:hover {
+  transform: scale(1.1);
+}
+
+.title-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.description-text {
+  width: 17rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  border: none;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #357ab8;
+  transform: scale(1.05);
+}
+
+.text-danger {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+
+  .left-box,
+  .right-box {
+    padding: 20px;
+  }
+
+  .left-box {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20px;
+  }
+
+  .right-box {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+  }
+}
